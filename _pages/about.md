@@ -12,5 +12,6 @@ I am PhD student at the Johns Hopkins University Bloomberg School of Public Heal
 
 Education
 ======
+
 Princeton University, Princeton, NJ
 _B.A., Economics, 2020_
