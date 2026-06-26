@@ -11,14 +11,14 @@ redirect_from:
 
 Education
 ======
-* B.A. in Economics, Princeton University, 2015 - 2020
 * Ph.D in Health Economics & Policy, Department of Health Policy & Management, Johns Hopkins Bloomberg School of Public Health, expected 2027
+* B.A. in Economics, Princeton University, 2015 - 2020
 
 Work experience
 ======
-* 2022-2023: Associate Consultant, Quantitative Economic Solutions
+* 2021-2023: Associate Consultant, Quantitative Economic Solutions
 
-* 2021-2022: Research Fellow, Stanford Law School
+* 2020-2021: Research Fellow, Stanford Law School
   
 Publications
 ======
