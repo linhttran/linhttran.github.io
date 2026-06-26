@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.A. in Economics, Princeton University, 2020
-* Ph.D in Health Economics & Policy, Department of Health Policy & Management, Johns Hopkins Bloomberg School of Public Health, --
+* B.A. in Economics, Princeton University, 2015 - 2020
+* Ph.D in Health Economics & Policy, Department of Health Policy & Management, Johns Hopkins Bloomberg School of Public Health, expected 2027
 
 Work experience
 ======
@@ -26,18 +26,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->

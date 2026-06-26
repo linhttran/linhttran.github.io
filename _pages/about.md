@@ -13,5 +13,8 @@ I am PhD student at the Johns Hopkins University Bloomberg School of Public Heal
 Education
 ======
 
+Johns Hopkins Bloomberg School of Public Health, Baltimore, MD  
+_Ph.D., Health Economics & Policy, expected 2027_
+
 Princeton University, Princeton, NJ  
 _B.A., Economics, 2020_
