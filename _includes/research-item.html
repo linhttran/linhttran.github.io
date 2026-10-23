@@ -13,15 +13,17 @@
     </h3>
 
     {% if post.authors %}
-      <p>{{ post.authors }}</p>
+      <p class="research__meta">{{ post.authors }}</p>
     {% endif %}
 
-    {% if post.status != 'wip' and post.date %}
-      <p>{{ post.date | date: "%B %Y" }}</p>
-    {% endif %}
-
-    {% if post.venue %}
-      <p><i>{{ post.venue }}</i></p>
+    {% assign show_date = false %}
+    {% if post.status != 'wip' and post.date %}{% assign show_date = true %}{% endif %}
+    {% if show_date or post.venue %}
+      <p class="research__meta">
+        {% if show_date %}{{ post.date | date: "%B %Y" }}{% endif %}
+        {% if show_date and post.venue %} · {% endif %}
+        {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}
+      </p>
     {% endif %}
 
     {% assign abstract = post.content | strip %}
