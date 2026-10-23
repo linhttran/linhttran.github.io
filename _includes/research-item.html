@@ -13,13 +13,15 @@
     </h3>
 
     {% if post.authors %}
-      <p class="research__authors">{{ post.authors }}</p>
+      <p>{{ post.authors }}</p>
     {% endif %}
 
-    {% if post.status == 'wip' %}
-      {% if post.venue %}<p><i>{{ post.venue }}</i></p>{% endif %}
-    {% elsif post.venue %}
-      <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    {% if post.status != 'wip' and post.date %}
+      <p>{{ post.date | date: "%B %Y" }}</p>
+    {% endif %}
+
+    {% if post.venue %}
+      <p><i>{{ post.venue }}</i></p>
     {% endif %}
 
     {% assign abstract = post.content | strip %}

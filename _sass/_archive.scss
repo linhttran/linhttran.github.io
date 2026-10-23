@@ -71,8 +71,11 @@
   margin: 0 0 0.25em;
 }
 
-.research__authors {
-  font-size: $type-size-6;
+.research__item .archive__item-title {
+  font-family: $global-font-family;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: inherit;
 }
 
 .research__abstract {
