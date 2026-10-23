@@ -1,29 +1,7 @@
 ---
-layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+redirect_to: /files/cv.pdf
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
-
-Education
-======
-* Ph.D in Health Economics & Policy, Department of Health Policy & Management, Johns Hopkins Bloomberg School of Public Health, expected 2027
-* B.A. in Economics, Princeton University, 2015 - 2020
-
-Work experience
-======
-* 2021-2023: Associate Consultant, Quantitative Economic Solutions
-
-* 2020-2021: Research Fellow, Stanford Law School
-  
-Publications
-======
-  {% assign published = site.publications | where_exp: "post", "post.status != 'wip'" %}
-  <ul>{% for post in published %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
