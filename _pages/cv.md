@@ -22,7 +22,8 @@ Work experience
   
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  {% assign published = site.publications | where_exp: "post", "post.status != 'wip'" %}
+  <ul>{% for post in published %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
