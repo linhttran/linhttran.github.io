@@ -3,7 +3,7 @@ title: "A Substantial Share of Medicare Patients Likely Pay Cash for Psychiatric
 collection: publications
 status: wip
 published: true
-date: 2026-10-02
+date: 2026-10-01
 authors: 'Linh Tran, Karen Shen, Mark Meiselbach'
 venue: 'Revise and resubmit at Health Services Research'
 # paperurl: 'https://...'   # optional link to a draft or SSRN page

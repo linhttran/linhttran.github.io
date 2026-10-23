@@ -3,9 +3,9 @@ title: "Digital Platforms and Provider Behavior: Evidence from Mental Health Ser
 collection: publications
 status: wip
 published: true
-date: 2026-10-01
+date: 2026-10-02
 authors: 'Linh Tran'
-# venue: 'Working paper'
+venue: 'Job market paper'
 # paperurl: 'https://...'   # optional link to a draft or SSRN page
 ---
 
