@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am PhD student at the Johns Hopkins University Bloomberg School of Public Health in the Health Economics & Policy track. My research interests include access to mental health treatments for people with mental illnesses and supply of mental health providers and facilities. Prior to starting my PhD, I was a Research Fellow at the Stanford Law School before working as an economic consultant in Boston, MA.
+I am PhD Candidate at the Johns Hopkins University Bloomberg School of Public Health in the Health Economics & Policy track. I use quasi-experimental methods and administrative data to study how corporatization and public policy affect the market for mental health services and identify inefficiencies in allocation of specialist mental health care. Prior to starting my PhD, I was a Research Fellow at the Stanford Law School before working as an economic consultant in Boston, MA.
+
+**I am on the 2026-2027 job market.**
 
 Education
 ======
