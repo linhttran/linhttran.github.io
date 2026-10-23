@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Linh Tran"
+title: "Biography"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,7 +16,7 @@ Education
 Johns Hopkins Bloomberg School of Public Health, Baltimore, MD  
 _Ph.D., Health Economics & Policy, expected 2027_
 
-Princeton University, Princeton, NJ
+Princeton University, Princeton, NJ  
 _B.A., Economics, 2020_
 
 Research {#research}
