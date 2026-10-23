@@ -28,7 +28,7 @@
 
     {% assign abstract = post.content | strip %}
     {% if abstract != "" %}
-      <details class="research__abstract">
+      <details class="research__abstract" open>
         <summary>Abstract</summary>
         <div itemprop="description">{{ abstract }}</div>
       </details>
