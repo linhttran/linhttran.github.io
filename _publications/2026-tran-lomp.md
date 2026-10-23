@@ -2,7 +2,7 @@
 title: "Digital Platforms and Provider Behavior: Evidence from Mental Health Services"
 collection: publications
 status: wip
-published: false
+published: true
 date: 2026-10-01
 authors: 'Linh Tran'
 venue: 'Working paper'
