@@ -29,8 +29,8 @@ author:
   name             : "Linh Tran"
   avatar           : "profile.jpg"
   bio              : "PhD Candidate in Health Economics & Policy, Johns Hopkins Bloomberg School of Public Health"
-  location         : "Baltimore, MD"
-  email            :           # e.g. ltran@jhu.edu
+  location         : 
+  email            : "ltran34@jhu.edu"          # e.g. ltran@jhu.edu
   googlescholar    :           # e.g. "https://scholar.google.com/citations?user=XXXX"
   github           : "linhttran"
   linkedin         :           # e.g. "linhtran"
