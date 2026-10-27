@@ -1,0 +1,161 @@
+# Site Settings
+locale                   : "en-US"
+title                    : "Linh Tran"
+title_separator          : "-"
+name                     : &name "Linh Tran"
+description              : &description "PhD student in Health Economics & Policy at Johns Hopkins Bloomberg School of Public Health"
+url                      : https://linhttran.github.io
+baseurl                  : ""
+repository               : "linhttran/linhttran.github.io"
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+
+comments:
+  provider               : false
+
+atom_feed:
+  path                   :
+
+# Analytics
+analytics:
+  provider               : false
+
+# Site Author
+author:
+  name             : "Linh Tran"
+  avatar           : "profile.jpg"
+  bio              : "PhD Candidate in Health Economics & Policy, Johns Hopkins Bloomberg School of Public Health"
+  location         : 
+  email            : "ltran34@jhu.edu"          # e.g. ltran@jhu.edu
+  googlescholar    :           # e.g. "https://scholar.google.com/citations?user=XXXX"
+  github           : "linhttran"
+  linkedin         :           # e.g. "linhtran"
+  orcid            :           # e.g. "https://orcid.org/0000-0000-0000-0000"
+  twitter          :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/New_York
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

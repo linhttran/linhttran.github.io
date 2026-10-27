@@ -1,0 +1,37 @@
+{% include base_path %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<div class="list__item">
+  <article class="archive__item research__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">{{ title }}</a>
+      {% else %}
+        {{ title }}
+      {% endif %}
+    </h3>
+
+    {% if post.authors %}
+      <p class="research__meta">{{ post.authors }}</p>
+    {% endif %}
+
+    {% assign show_date = false %}
+    {% if post.status != 'wip' and post.date %}{% assign show_date = true %}{% endif %}
+    {% if show_date or post.venue %}
+      <p class="research__meta">
+        {% if show_date %}{{ post.date | date: "%B %Y" }}{% endif %}
+        {% if show_date and post.venue %} · {% endif %}
+        {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}
+      </p>
+    {% endif %}
+
+    {% assign abstract = post.content | strip %}
+    {% if abstract != "" %}
+      <details class="research__abstract" open>
+        <summary>Abstract</summary>
+        <div itemprop="description">{{ abstract }}</div>
+      </details>
+    {% endif %}
+  </article>
+</div>

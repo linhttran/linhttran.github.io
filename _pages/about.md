@@ -1,0 +1,48 @@
+---
+permalink: /
+title: "Biography"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+I am PhD Candidate at the Johns Hopkins University Bloomberg School of Public Health in the Health Economics & Policy track. I use quasi-experimental methods and administrative data to study how corporatization and public policy affect the market for mental health services and identify inefficiencies in allocation of specialist mental health care. Prior to starting my PhD, I was a Research Fellow at the Stanford Law School before working as an economic consultant in Boston, MA.
+
+**I am on the 2026-2027 job market.**
+
+Education
+======
+
+Johns Hopkins Bloomberg School of Public Health, Baltimore, MD  
+_Ph.D., Health Economics & Policy, expected 2027_
+
+Princeton University, Princeton, NJ  
+_B.A., Economics, 2020_
+
+Research {#research}
+======
+
+{% if site.author.googlescholar %}
+  You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+{% assign published = site.publications | where_exp: "post", "post.status != 'wip'" | reverse %}
+{% assign wip = site.publications | where_exp: "post", "post.status == 'wip'" | reverse %}
+
+{% if published.size > 0 %}
+<h2 class="archive__subtitle">Publications</h2>
+{% for post in published %}
+  {% include research-item.html %}
+{% endfor %}
+{% endif %}
+
+{% if wip.size > 0 %}
+<h2 class="archive__subtitle">Works in Progress</h2>
+{% for post in wip %}
+  {% include research-item.html %}
+{% endfor %}
+{% endif %}
